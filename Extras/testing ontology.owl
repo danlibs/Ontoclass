@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Estudo_de_casos_registrados_de_avistamento_1.2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Inquirição_sobre_casos_de_avistamento_1.3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Investigação_de_avistamentos_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Estudo_de_casos_registrados_de_avistamento_1.2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Estudo_de_casos_registrados_de_avistamento_1.2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Investigação_de_avistamentos_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Inquirição_sobre_casos_de_avistamento_1.3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Inquirição_sobre_casos_de_avistamento_1.3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Investigação_de_avistamentos_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Investigação_de_avistamentos_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Investigação_de_avistamentos_1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Estudo_de_casos_registrados_de_avistamento_1.2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Inquirição_sobre_casos_de_avistamento_1.3"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#despacho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#despacho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#entrevista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#entrevista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#experiência -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#experiência"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#foto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#foto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#ilustração -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#ilustração">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#imagem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#imagem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#jornal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#jornal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#mapa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#mapa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Análise_de_material_visual_1.2.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#memorando -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#memorando">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#narrativa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#narrativa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#notícia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#notícia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#ofício -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#ofício">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Encaminhamento_de_investigações_1.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#perguntas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#perguntas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#questionário -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#questionário">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#recorte_de_jornal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#recorte_de_jornal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#relato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#relato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Aplicação_de_questionário_estruturado_1.3.1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Registro_de_relatos_1.3.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#reportagem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#reportagem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2018/10/planoteste#Recolhimento_de_casos_divulgados_na_mídia_1.2.2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#narrativa">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#entrevista">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/5.0.0/abox.owl#caa"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#c"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#narrativa"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/5.0.0/abox.owl#caa"/>
+                                <swrl:arguments rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#c"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#entrevista"/>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2018/10/untitled-ontology-96#c"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
