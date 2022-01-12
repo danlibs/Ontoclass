@@ -8,7 +8,7 @@ In the Extras folder, there are two files: one is the published article about th
 
 This is the OntoClass:
 
-![](/home/daniel/Documentos/Ontoclass/Images/Ontoclass.png) 
+![](https://github.com/danlibs/Ontoclass/tree/main/Images/Ontoclass.png) 
 
 To use it, just click "Browse" and select the example ontology or whatever ontology you made based on the instructions in the published article. Then, you can write any terms that apply to a certain document, click "Add term" and "Find class". The list of available terms to the example ontology is the following:
 
